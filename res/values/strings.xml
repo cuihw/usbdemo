@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Fingerprint Comparison</string>
+    <string name="fps_sn">指纹传感器序列号：<xliff:g>%1$s</xliff:g></string>
+    <string name="fps_fw">指纹传感器内部固件版本号：<xliff:g>%1$s</xliff:g></string>
+    <string name="open_shenfenzheng">打开身份证</string>
+    <string name="close_shenfenzheng">关闭身份证</string>
+    <string name="fp_collect_info">单次指纹采集信息：</string>
+    <string name="capture">取图：</string>
+    <string name="extract">提取特征：</string>
+    <string name="generalize">合成模板：</string>
+    <string name="verify">比对：</string>
+    <string name="enroll_fp">录入指纹</string>
+    <string name="verify_fp">比对指纹</string>
+    <string name="identify_fp">搜索指纹</string>
+    <string name="clear_fp_db">清空指纹库</string>
+    <string name="show_fp">显示指纹</string>
+    <string name="fingerprint_device_open_success">fingerprint device open success</string>
+    <string name="fingerprint_device_open_failed">fingerprint device open failed！error code:</string>
+    <string name="fingerprint_device_close_success">Fingerprint device close succeed！</string>
+    <string name="fingerprint_device_close_failed">指纹仪关闭失败！错误码：</string>
+    <string name="algorithm_initialization_failed">Bione initialization failed！error code:</string>
+    <string name="algorithm_cleanup_failed">Bione算法反初始化失败！错误码：</string>
+    <string name="not_done">未进行</string>
+    <string name="capture_image_success">Capture fingerprint image success!</string>
+    <string name="capture_image_failed">Capture fingerprint image failed! error code:</string>
+    <string name="enroll_failed_because_of_extract_feature">录入失败，提取特征出错！错误码：</string>
+    <string name="enroll_failed_because_of_make_template">录入失败，生成模板出错！错误码：</string>
+    <string name="enroll_failed_because_of_get_id">录入失败，获取可用的指纹ID失败！错误码：</string>
+    <string name="enroll_failed_because_of_error">录入失败！错误码：</string>
+    <string name="enroll_success">Enroll Success！Fingerprint ID：</string>
+    <string name="verify_failed_because_of_extract_feature">比对失败，提取特征出错！错误码：</string>
+    <string name="verify_failed_because_of_error">比对失败！错误码：</string>
+    <string name="fingerprint_not_match">指纹不匹配！</string>
+    <string name="fingerprint_match">指纹匹配！</string>
+    <string name="identify_failed_because_of_extract_feature">比对失败，提取特征出错！错误码：</string>
+    <string name="identify_failed_because_of_error">比对失败！错误码：</string>
+    <string name="identify_match">匹配指纹ID：</string>
+    <string name="clear_fingerprint_database_success">清空指纹库成功！</string>
+    <string name="clear_fingerprint_database_failed">清空指纹库失败！错误码：</string>
+    
+    <string name="action_settings">Enroll person info</string>
+    <string name="action_person">Person info</string>
+    
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="GetSamID">获取模块编号</string>
+    <string name="GetSamStatus">获取模块状态</string>
+    <string name="StartFindIDCard">找卡</string>
+    <string name="SelectIDCard">选卡</string>    
+    <string name="SDT_ReadIdNum">读身份证号</string>
+    <string name="SDT_ReadBaseMsg">读基本信息</string>
+	 <string name="SDT_ReadBaseFPMsg">读指纹信息</string>
+	<string name="readloop">循环扫描找卡</string>
+	<string name="stopreadloop">停止循环扫描</string>
+	<string name="cleartext">清空右侧显示</string>
+	<string name="closeapp">关闭应用程序</string>
+	<string name="msg_name">姓  名</string>
+	<string name="msg_sex">性  别</string>
+	<string name="msg_nation">民  族</string>
+	<string name="msg_birthday">出  生</string>
+	<string name="msg_address">住  址</string>
+	<string name="msg_idnum">公民身份号码</string>
+	<string name="msg_signoffice">签发机关</string>
+	<string name="msg_uselife">有效期限</string>
+	<string name="year">年</string>
+	<string name="month">月</string>
+	<string name="day">日</string>
+	
+	
+	<!-- 身份证阅读机具 -->
+    <string name="idcard">二代身份证阅读机具</string>
+    <string name="idcard_sn">二代身份证阅读模块序列号：<xliff:g>%1$s</xliff:g></string>
+    <string name="name">姓名：</string>
+    <string name="sex">性别：</string>
+    <string name="nationality">民族：</string>
+    <string name="birthday">出生：</string>
+    <string name="address">住址：</string>
+    <string name="number">身份证号码：</string>
+    <string name="authority">签发机关：</string>
+    <string name="valid_date">有效期：</string>
+    <string name="fp_info">指纹信息：</string>
+    <string name="read_idcard">读取身份证</string>
+    <string name="read_idcard_id">读取身份证物理ID</string>
+    <string name="id_card_reader_open_success">身份证阅读机具打开成功！</string>
+    <string name="id_card_reader_open_failed">身份证阅读机具打开失败！错误码：</string>
+    <string name="id_card_reader_close_success">身份证阅读机具关闭成功！</string>
+    <string name="id_card_reader_close_failed">身份证阅读机具关闭失败！错误码：</string>
+    <string name="id_card_read_success">二代身份证读取成功！</string>
+    <string name="id_card_not_exist_or_reread">请将二代身份证移开后重新放置在读卡区域！</string>
+    <string name="id_card_read_failed">读卡失败！错误码：</string>
+    <string name="id_card_read_id_success">读取二代证物理ID成功！物理ID：</string>
+    <string name="id_card_read_id_failed">读取二代证物理ID失败！错误码：</string>
+    <string name="long_term">长期</string>
+    <string name="exist">存在</string>
+    <string name="not_exist">不存在</string>
+    
+    <string name="open_zhiwen">打开指纹</string>
+    <string name="close_zhiwen">关闭指纹</string>
+</resources>

@@ -1,0 +1,78 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">63dip</item>
+        <item name="android:windowTitleStyle">@style/WindowTitle</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitle</item>
+        <item name="android:textViewStyle">@style/TextView</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:tabWidgetStyle">@style/TabWidget</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FF000000</item>
+    </style>
+
+    <style name="TextView" parent="android:Widget.TextView">
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">#FF606060</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="EditText" parent="android:Widget.EditText">
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/edittext</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Button" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TabWidget" parent="android:Widget.TabWidget">
+        <item name="android:textSize">22sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">fill_horizontal|center_vertical</item>
+        <item name="android:textColor">#FF000000</item>
+    </style>
+
+    <style name="TabView" parent="android:Widget">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">#FFFFFFFF</item>
+        <item name="android:paddingLeft">4dip</item>
+        <item name="android:paddingRight">4dip</item>
+    </style>
+
+    <style name="WindowTitle">
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#00000000</item>
+        <item name="android:shadowRadius">0</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:background">#FF00B100</item>
+        <item name="android:paddingLeft">25dp</item>
+    </style>
+    
+    <style name="MyActivityTheme" parent="android:Theme.Light">
+        <item name="android:windowTitleBackgroundStyle">@style/windowTitleBackgroundStyle</item>
+        <item name="android:windowTitleStyle">@style/windowTitleStyle</item>
+        <!-- Window Header Height -->
+        <item name="android:windowTitleSize">54dp</item>
+    </style>
+
+    <!-- Preference Settings Window Title -->
+    <style name="windowTitleBackgroundStyle">
+        <item name="android:background">#104E8B</item>
+    </style>
+
+    <style name="windowTitleStyle">
+        <item name="android:textColor">#F0F0F0</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

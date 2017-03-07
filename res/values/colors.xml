@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="activity_background">#FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="pink">#e2d</color>
+    <color name="grey">#d6d6d6</color>
+    <color name="darkgreen">#48D1CC</color>
+    <color name="darkgrey">#2E2E2E</color>
+    <color name="bule">#63B8FF</color>
+    <color name="title_bg">#ff1958a5</color>
+</resources>
